@@ -1,0 +1,17 @@
+*{
+    box-sizing:border-box;
+    margin: 0 auto;
+}
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/* images formatting */
+.img{
+    display: flex;
+    
+}
+p {
+    padding: 10px;
+}
