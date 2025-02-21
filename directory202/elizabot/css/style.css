@@ -1,8 +1,6 @@
 body {
     background-image: url("/images/castle.jpg");
-    margin: 0;
-    overflow: hidden;
-    background-color: darkblue;
+
 }
 h1 {
     color: white;
