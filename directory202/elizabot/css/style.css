@@ -1,0 +1,48 @@
+body {
+    background-image: url(/ELIZABOT/Assignment_5_elizaChat-1/Assignment_5_elizaChat/elizabot/images/1331859-Hogwarts-CastleHarry-Potter-HD-Wallpaper.jpg);
+    margin: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+h1 {
+    color: white;
+}
+footer {
+    text-align: center;
+}
+a {
+    color: white;
+}
+
+#sparkles-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.sparkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 238, 0);
+    border-radius: 50%;
+    opacity: 0;
+    animation: sparkle-animation 3.5s ease-in-out forwards;
+}
+
+@keyframes sparkle-animation {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(95vh) scale(0);
+        opacity: 0;
+    }
+}
