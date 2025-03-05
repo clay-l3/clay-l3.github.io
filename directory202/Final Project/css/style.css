@@ -1,0 +1,44 @@
+/* Styling for final project */
+/* old paper background */
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+* {
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+  
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body {
+    
+    display: block;
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+    margin: 0;  
+    background-image: url(/images/oldpaper.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 95vh;
+}
+
+header {
+    margin-top: 200px;
+}
+header h1 {
+    font-size: 60px;
+    color: rgb(134, 89, 52);
+}
+.btn {
+    font-size: 40px;
+    color: rgb(134, 89, 52);
+    
+}
+.btn:hover {
+    color: white;
+}
+form {
+    font-size: 40px;
+    width: 300px;
+}
